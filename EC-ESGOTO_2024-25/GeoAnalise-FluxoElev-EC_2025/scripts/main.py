@@ -61,9 +61,6 @@ def main():
     pl = maior_cota_lr(lr, mde_path)
     df = processar_alternativa(df, bacias, lr, pl, alt_nome)
 
-    # Gera fluxograma
-    gerar_fluxograma(df, bacias, alt_nome, repoPath)
-
     # Salva CSV
     df.to_csv(
         os.path.join(output_path, f"resultado_bacias_esgoto_{alt_nome}.csv"),
