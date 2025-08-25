@@ -54,7 +54,7 @@ def gerar_fluxograma_simples(df, repoPath):
     )
 
     for _, row in df.iterrows():
-        origem = row['MICRO BACIA']
+        origem = row['MICROBACIA']
         destino = str(row['DESTINO']) if pd.notna(row['DESTINO']) else 'ETE'
         tipo_encaminhamento = str(row.get('ENCAMINHAMENTO', '')).strip().upper()
 
@@ -71,6 +71,8 @@ def gerar_fluxograma_simples(df, repoPath):
 
         if destino.upper().startswith("ETE"):
             dot.node(destino, shape="ellipse", fillcolor='lightgrey')
+        elif destino.upper().startswith("INT"):
+            dot.node(destino, fillcolor='lightgreen')
         else:
             dot.node(destino)  # padrão
 
@@ -84,22 +86,7 @@ def gerar_fluxograma_simples(df, repoPath):
 
 
 
-df_fluxo = pd.read_excel(
-    r'C:\Users\gabriel.coimbra\Downloads\FLUXOGRAMA_ALTERNATIVA 01.xlsx',
-    skiprows=1
-)[['MICRO BACIA', 'DESTINO', 'ENCAMINHAMENTO']]
-
-# Caminho base do projeto
-repoPath = r'C:\Users\gabriel.coimbra\Documents\GitHub\EngSanitariaAmbiental\EC-ESGOTO_2024-25\GeoAnalise-FluxoElev-EC_2025'
-
-# Executar a função
-gerar_fluxograma_simples(df_fluxo, repoPath)
-
-
-df_fluxo = pd.read_excel(
-    r'C:\Users\gabriel.coimbra\Downloads\FLUXOGRAMA_ALTERNATIVA 03.xlsx',
-    skiprows=1
-)[['MICRO BACIA', 'DESTINO', 'ENCAMINHAMENTO']]
+df_fluxo = pd.read_excel(r'C:\Users\gabriel.coimbra\Downloads\Fluxo_Alt03.xlsx')[['MICROBACIA', 'DESTINO', 'ENCAMINHAMENTO']]
 
 # Caminho base do projeto
 repoPath = r'C:\Users\gabriel.coimbra\Documents\GitHub\EngSanitariaAmbiental\EC-ESGOTO_2024-25\GeoAnalise-FluxoElev-EC_2025'
