@@ -1,3 +1,11 @@
+AnaliseInequaçãoFEPAM/outputs
+EC-ESGOTO_2024-25/RecortaBordasTabelasPDFparaJPG-EC_2025/inputs
+EC-ESGOTO_2024-25/RecortaBordasTabelasPDFparaJPG-EC_2025/outputs
+EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/drivers
+EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/inputs
+EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/outputs
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
