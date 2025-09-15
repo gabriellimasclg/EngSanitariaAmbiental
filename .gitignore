@@ -5,6 +5,8 @@ EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/drivers
 EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/inputs
 EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/outputs
 venv/
+projeto/inputs
+projeto/outputs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -181,3 +183,48 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 CursoPyGeoDev/projeto/script/MOD04_aula/Untitled.ipynb
+CursoPyGeoDev/projeto/inputs/BR_Municipios_2024(1)/BR_Municipios_2024.cpg
+CursoPyGeoDev/projeto/inputs/BR_Municipios_2024(1)/BR_Municipios_2024.dbf
+CursoPyGeoDev/projeto/inputs/BR_Municipios_2024(1)/BR_Municipios_2024.prj
+CursoPyGeoDev/projeto/inputs/BR_Municipios_2024(1)/BR_Municipios_2024.shp
+CursoPyGeoDev/projeto/inputs/BR_Municipios_2024(1)/BR_Municipios_2024.shx
+CursoPyGeoDev/projeto/inputs/CBERS_4A_WPM_20220902_205_133_L4_BAND1.tif
+CursoPyGeoDev/projeto/inputs/CBERS_4A_WPM_20220902_205_133_L4_BAND2.tif
+CursoPyGeoDev/projeto/inputs/CBERS_4A_WPM_20220902_205_133_L4_BAND3.tif
+CursoPyGeoDev/projeto/inputs/CBERS_4A_WPM_20220902_205_133_L4_BAND4.tif
+CursoPyGeoDev/projeto/inputs/CBERS_4A_WPM_20220902_205_133_L4_RGB.tif
+CursoPyGeoDev/projeto/inputs/est_monit_ar/VWM_ESTACAO_ATIVA_REDEAUTOMATICA_QUALAR_PTOPoint.cst
+CursoPyGeoDev/projeto/inputs/est_monit_ar/VWM_ESTACAO_ATIVA_REDEAUTOMATICA_QUALAR_PTOPoint.dbf
+CursoPyGeoDev/projeto/inputs/est_monit_ar/VWM_ESTACAO_ATIVA_REDEAUTOMATICA_QUALAR_PTOPoint.prj
+CursoPyGeoDev/projeto/inputs/est_monit_ar/VWM_ESTACAO_ATIVA_REDEAUTOMATICA_QUALAR_PTOPoint.shp
+CursoPyGeoDev/projeto/inputs/est_monit_ar/VWM_ESTACAO_ATIVA_REDEAUTOMATICA_QUALAR_PTOPoint.shx
+CursoPyGeoDev/projeto/inputs/Exercício_Modulo_7.docx
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.cpg
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.dbf
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.prj
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.qmd
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.shp
+CursoPyGeoDev/projeto/inputs/MOD08/Estacao_Trem_SP.shx
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.cpg
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.dbf
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.prj
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.qmd
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.shp
+CursoPyGeoDev/projeto/inputs/MOD08/Linha_Trem_SP.shx
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_estacaometro.zip
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_estacaometro/SIRGAS_SHP_estacaometro_point.cpg
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_estacaometro/SIRGAS_SHP_estacaometro_point.dbf
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_estacaometro/SIRGAS_SHP_estacaometro_point.shp
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_estacaometro/SIRGAS_SHP_estacaometro_point.shx
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_linhametro.zip
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_linhametro/SIRGAS_SHP_linhametro_line.cpg
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_linhametro/SIRGAS_SHP_linhametro_line.dbf
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_linhametro/SIRGAS_SHP_linhametro_line.shp
+CursoPyGeoDev/projeto/inputs/MOD08/SIRGAS_SHP_linhametro/SIRGAS_SHP_linhametro_line.shx
+CursoPyGeoDev/projeto/inputs/SP_Setores_2021/sp_setores_censitarios/35SEE250GC_SIR.dbf
+CursoPyGeoDev/projeto/inputs/SP_Setores_2021/sp_setores_censitarios/35SEE250GC_SIR.prj
+CursoPyGeoDev/projeto/inputs/SP_Setores_2021/sp_setores_censitarios/35SEE250GC_SIR.shp
+CursoPyGeoDev/projeto/inputs/SP_Setores_2021/sp_setores_censitarios/35SEE250GC_SIR.shx
+CursoPyGeoDev/projeto/inputs/SP_Setores_2021/sp_setores_censitarios/EXCEL/Basico_SP1.xls
+CursoPyGeoDev/projeto/outputs/dados_parque_sp.gpkg
+CursoPyGeoDev/projeto/outputs/map.html
