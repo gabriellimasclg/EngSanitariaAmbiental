@@ -1,0 +1,10 @@
+[general]
+name=Preencher Semente
+description=Ferramenta de conformidade de dados para padronizar geometrias e atributos usando um GPKG semente.
+version=1.0
+qgisMinimumVersion=3.20
+qgisMaximumVersion=3.99
+author=Gabriel Coimbra
+email=seu_email@example.com
+category=Processing
+hasProcessingProvider=yes
