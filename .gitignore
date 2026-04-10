@@ -7,6 +7,9 @@ EC-ESGOTO_2024-25/GeoAnalise-FluxoElev-EC_2025/outputs
 venv/
 projeto/inputs
 projeto/outputs
+AnalisePavimentacao/figures
+AnalisePavimentacao/inputs
+AnalisePavimentacao/outputs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
