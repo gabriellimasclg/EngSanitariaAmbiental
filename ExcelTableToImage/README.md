@@ -4,8 +4,6 @@ Converts Excel sheets into cropped table images, in two steps:
 1. Exports each worksheet (its used range) as a PDF — one PDF per sheet.
 2. Crops each PDF to just the table area and saves it as a high-quality JPG.
 
-![example](https://github.com/gabriellimasclg/EngSanitariaAmbiental/blob/main/Excel_Imagem_Conversor/imagem_auxiliar.jpg?raw=true)
-
 ## Requirements
 
 ```bash
